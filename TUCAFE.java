@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class TUCAFE {
     public static void main(String[] args) {
 
-        MaquinaCafe maquinaDelSuper = new MaquinaCafe();
+        TUCAFETEST maquinaDelSuper = new TUCAFETEST();
 
         maquinaDelSuper.main();
     }
 }
 
-class MaquinaCafe {
+class TUCAFETEST {
  
     private Scanner sc = new Scanner(System.in);  
     private int montoDisponible = 25;
